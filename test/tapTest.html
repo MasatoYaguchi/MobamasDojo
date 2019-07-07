@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>jQuery Mobile Web アプリ</title>
+    <link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+    <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $('#home').live('pagecreate',function(){
+        $('#btn1').live('tap',doAction);
+        $('#btn1').live('taphold',doAction2);
+    });
+     
+    function doAction(){
+        $('#msg').text($(this).attr('id') + "にタッチしたぞ！");
+    }
+    function doAction2(){
+        $('#msg').text($(this).attr('id') + "を長押ししたぞ！");
+    }
+    </script>
+    </head>
+    <body>
+<!-- home page -->
+<div id="home" data-role="page">
+        <div data-role="header">
+        <h1>Hello</h1>
+    </div>
+        <div data-role="content">
+        <p id="msg">※サンプル。</p>
+        <div data-role="fieldcontain">
+                <input type="button" name="btn1" id="btn1" value="Click" />
+            </div>
+    </div>
+    </div>
+</body>
+</html>

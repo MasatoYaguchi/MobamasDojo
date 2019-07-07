@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#idtext {
+    margin-bottom: 10px;
+    height: 3em;
+}
+
+.iconGroup {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+#headerImg {
+    display: block;
+    text-indent: -9999px; /*テキストを外に*/
+    margin: 0.6em auto 0.8em;
+    background: url("../img/title3.png") no-repeat center;
+    background-size: 171px 16px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+    #headerImg {
+        display: block;
+        text-indent: -9999px; /*テキストを外に*/
+        margin: 0.6em auto 0.8em;
+        background: url("../img/title4.png") no-repeat center;
+        background-size: 171px 16px;
+    }
+}
+
+#topFooter {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#event_text {
+    font-size: 14px;
+}
+
+#event_name {
+    font-weight: bold;
+}
+
+#eventProJumpBtn {
+    margin-top: 20px;
+}
+
+.historyTxt {
+    font-size: 9px;
+    margin-right: 10px;
+    color: #666;
+}

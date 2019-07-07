@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+div {
+    position: relative;
+}
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+#wrap a {
+    padding: 2px 20px 6px;
+    color: #2D2D2D;
+}
+
+h1 {
+    font-size: 16px;
+    padding: 6px 6px 2px;
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 10px;
+}
+li {
+    margin: 0;
+    background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #ffffff 25%,
+    #f0f0f0 75%,
+    #ffffff);
+    background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#ffffff),
+    color-stop(0.25, #ffffff),
+    color-stop(0.75, #f0f0f0),
+    to(#ffffff));
+    border: 1px solid #BBBBBB;
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(000,000,000,0.3);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(000,000,000,0.3);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(000,000,000,0.3);
+}
+.linked{
+    color: #FF0000;
+    background: -moz-linear-gradient(
+    top,
+    #FFFFEE 0%,
+    #FFAAAA 25%,
+    #FFAAAA 75%,
+    #ffffff);
+    background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#FFFFD3),
+    color-stop(0.25, #FFFDB0),
+    color-stop(0.75, #FFFDB0),
+    to(#FFFFD3));
+    border: 1px solid #BCBC8C;
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(080,080,000,0.3);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(080,080,000,0.3);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 6px rgba(080,080,000,0.3);     
+}
+
+#menubtn {
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    height: 46px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#menubtn li {
+    background-color: #225377;
+    height:40px;
+    border: none;
+    float: left;
+    text-align: center;
+    margin: 0;
+    background: -moz-linear-gradient(#77d56f, #49ae4b) repeat scroll 0 0 #27942a;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#77d56f),to(#49ae4b));
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #3E6790;
+    font-size: 16px;
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 2px rgba(000,000,000,0.3);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 2px rgba(000,000,000,0.3);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 0px 2px rgba(000,000,000,0.3);
+    padding:4px 0px;
+}
+
+.blackbtn {
+    background: -moz-linear-gradient(#404040, #000) repeat scroll 0 0 #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404040),to(#000));
+}
+
+#menubtn a {
+    padding: 12px 0;
+    color: white;
+    font-weight:bold;
+}
+#footer {
+    font-size: 12px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+.tophead {
+    background: -moz-linear-gradient(#6FACD5, #497BAE) repeat scroll 0 0 #5E87B0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FACD5),to(#497BAE));
+    border: 1px solid #456F9A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #3E6790;
+    font-size: 14px;
+    padding: 6px 6px;
+}
+.shead {
+    background: -moz-linear-gradient(#70d4c7, #49adad) repeat scroll 0 0 #5E87B0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FACD5),to(#49adad));
+    border: 1px solid #49adad;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #3E6790;
+    font-size: 10px;
+    padding: 2px 6px;
+}
+
+.backbtn {
+
+}
+
+#header {
+    background: -moz-linear-gradient(#3C3C3C, #111111) repeat scroll 0 0 #111111;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3C3C3C),to(#111111));
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000000;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.backicon {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -9px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    /* background-position: -144px 50%;*/
+    background: url("images/icons-18-white.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    border-radius: 9px 9px 9px 9px;
+    height: 18px;
+    width: 18px;
+}
+.icon-back {
+    background-position: -396px 50%;
+}
+.icon-arrow-r {
+    background-position: -108px 50%;
+}
+
+#toppage {
+    clear: both;
+}
+
+.dsnon {
+    display: none;
+}
+
+

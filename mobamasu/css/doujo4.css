@@ -1,0 +1,243 @@
+@charset "UTF-8";
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101010;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.plofileLink a {
+    padding: 2px 20px 6px;
+    color: #2D2D2D;
+}
+
+h1 {
+    font-size: 16px;
+    padding: 6px 12px 0px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 11px;
+    padding: 0px 12px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 10px;
+    padding: 0px 12px 6px;
+}
+
+.dojoBtn {
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 25%, #f0f0f0 75%, #ffffff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(0.25, #ffffff), color-stop(0.75, #f0f0f0), to(#ffffff));
+    border: 1px solid #BBBBBB;
+    -webkit-box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 6px rgba(000, 000, 000, 0.3);
+    box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 6px rgba(000, 000, 000, 0.3);
+}
+
+.linked {
+    color: #FF0000;
+    background: -moz-linear-gradient(top, #FFFFEE 0%, #FFAAAA 25%, #FFAAAA 75%, #ffffff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFD3), color-stop(0.25, #FFFDB0), color-stop(0.75, #FFFDB0), to(#FFFFD3));
+    border: 1px solid #BCBC8C;
+    -webkit-box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 6px rgba(080, 080, 000, 0.3);
+    box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 6px rgba(080, 080, 000, 0.3);
+}
+
+.clearBoth {
+    clear: both;
+}
+
+#menubtn {
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    height: 46px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#lankMenu {
+    margin-top: 6px;
+}
+
+#lankBtn a {
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #000033;
+}
+
+#lankBtn {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+#lankBtn li {
+    border: none;
+    float: left;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FACD5), to(#497BAE));
+    -webkit-border-radius: 10px 10px 0 0;
+    margin-left: 2px;
+}
+
+.lankhead {
+    background: #497BAE;
+    border-bottom: 1px solid #497BAE;
+    border-top: none;
+    color: #FFFFFF;
+    height: 2px;
+}
+
+#menubtn li {
+    background-color: #225377;
+    height: 40px;
+    border: none;
+    float: left;
+    text-align: center;
+    margin: 0;
+    background: -moz-linear-gradient(#77d56f, #49ae4b) repeat scroll 0 0 #27942a;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#77d56f), to(#49ae4b));
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #3E6790;
+    font-size: 16px;
+    -webkit-box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 2px rgba(000, 000, 000, 0.3);
+    box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 2px rgba(000, 000, 000, 0.3);
+    padding: 4px 0px;
+}
+
+#menubtn a {
+    padding: 12px 0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.blackbtn {
+    background: -moz-linear-gradient(#404040, #000) repeat scroll 0 0 #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#000));
+}
+
+#footer {
+    font-size: 12px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.shead {
+    background: -webkit-gradient(linear, left top, left bottom, from(#6FACD5), to(#49adad));
+    border: 1px solid #49adad;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #3E6790;
+    font-size: 10px;
+    padding: 2px 6px;
+}
+
+#header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3C3C3C), to(#111111));
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000000;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.backicon {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -9px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    background-position: -144px 50%;
+    background: url("images/icons-18-white.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    border-radius: 9px 9px 9px 9px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon-back {
+    background-position: -396px 50%;
+}
+
+.icon-arrow-r {
+    background-position: -108px 50%;
+}
+
+#lankMenu {
+    clear: both;
+}
+
+.dsnon {
+    display: none;
+}
+
+/*タブ関係*/
+#tab_group {
+    display: -webkit-box;
+}
+
+.head_tab {
+    color: #F0F0F0;
+    margin-top: 10px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-image: -webkit-gradient(liner, left top, left bottom, from(#FFF), to(#CCC));
+    -webkit-box-shadow: 0px 0px 0px rgba(000, 000, 000, 0), inset 0px 0px 2px rgba(000, 000, 000, 0.3);
+    -webkit-box-sizing: border-box;
+    border: 1px solid red;
+    border-style: solid solid none;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+
+#lank1 {
+    display: box;
+}
+
+#lank2 {
+    display: none;
+}
+
+#lank3 {
+    display: none;
+}
+
+#lank4 {
+    display: none;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background: red;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+
+
